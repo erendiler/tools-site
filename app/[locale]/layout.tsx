@@ -7,7 +7,7 @@ import { routing } from "@/i18n/routing";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import "../globals.css";
 
-const ADSENSE_ID = "ca-pub-XXXXXXXXXXXXXXXXX";
+const ADSENSE_ID = "ca-pub-9682866993240569";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
