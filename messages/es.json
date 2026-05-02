@@ -1,0 +1,55 @@
+{
+  "nav": { "allTools": "Todas las herramientas", "contact": "Contacto" },
+  "home": {
+    "title": "Herramientas Online Gratuitas",
+    "subtitle": "{count} herramientas gratuitas para diseñadores, desarrolladores y todos. Sin registro.",
+    "suggestTool": "Más herramientas próximamente · Sugerir una herramienta en"
+  },
+  "categories": {
+    "design": "Diseño e Imagen",
+    "pdf": "PDF y Documentos",
+    "developer": "Herramientas de Desarrollo",
+    "text": "Herramientas de Texto",
+    "converters": "Conversores y Generadores"
+  },
+  "tools": {
+    "favicon": { "title": "Generador de Favicon", "desc": "Crear iconos favicon desde texto, emoji o imagen." },
+    "og-image": { "title": "Generador de Imagen OG", "desc": "Diseñar imágenes Open Graph (1200×630) para redes sociales." },
+    "css-gradient": { "title": "Generador de Gradiente CSS", "desc": "Crear gradientes CSS visualmente y copiar el código." },
+    "color-palette": { "title": "Extractor de Paleta de Colores", "desc": "Subir una imagen y extraer su paleta de colores dominante." },
+    "box-shadow": { "title": "Generador de Sombra", "desc": "Crear efectos box-shadow CSS visualmente." },
+    "image-compressor": { "title": "Compresor de Imágenes", "desc": "Reducir el tamaño sin perder calidad. PNG, JPG, WebP." },
+    "image-to-pdf": { "title": "Imágenes a PDF", "desc": "Convertir varias imágenes en un solo PDF." },
+    "pdf-to-word": { "title": "PDF a Word", "desc": "Convertir PDF a documentos Word editables (.docx)." },
+    "pdf-to-excel": { "title": "PDF a Excel", "desc": "Extraer tablas y datos de PDF a Excel (.xlsx)." },
+    "invoice": { "title": "Generador de Facturas", "desc": "Crear facturas profesionales y descargar como PDF." },
+    "json-formatter": { "title": "Formateador JSON", "desc": "Formatear, validar y minimizar JSON al instante." },
+    "base64": { "title": "Codificador/Decodificador Base64", "desc": "Codificar texto en Base64 o decodificar Base64 a texto." },
+    "jwt-decoder": { "title": "Decodificador JWT", "desc": "Decodificar e inspeccionar el header, payload y expiración del JWT." },
+    "regex-tester": { "title": "Probador de Regex", "desc": "Probar expresiones regulares con resaltado en vivo." },
+    "cron-builder": { "title": "Constructor de Cron", "desc": "Crear expresiones cron visualmente con explicación." },
+    "number-base": { "title": "Conversor de Base Numérica", "desc": "Convertir entre Binario, Decimal, Hexadecimal y Octal." },
+    "timestamp": { "title": "Conversor de Timestamp", "desc": "Convertir timestamps Unix a fechas y viceversa." },
+    "word-counter": { "title": "Contador de Palabras", "desc": "Contar palabras, caracteres, oraciones y tiempo de lectura." },
+    "text-case": { "title": "Conversor de Mayúsculas", "desc": "Convertir entre camelCase, snake_case, MAYÚSCULAS y más." },
+    "lorem-ipsum": { "title": "Generador de Lorem Ipsum", "desc": "Generar texto de marcador de posición para diseños." },
+    "markdown-preview": { "title": "Vista Previa de Markdown", "desc": "Escribir Markdown y ver la vista previa HTML en vivo." },
+    "qr-code": { "title": "Generador de Código QR", "desc": "Generar códigos QR para URLs y texto. Descargar PNG." },
+    "unit-converter": { "title": "Conversor de Unidades", "desc": "Convertir longitud, peso, temperatura, velocidad y más." },
+    "password-generator": { "title": "Generador de Contraseñas", "desc": "Generar contraseñas seguras. Varias a la vez." },
+    "email-signature": { "title": "Firma de Email", "desc": "Crear firmas HTML para Gmail y Outlook." },
+    "vcard": { "title": "Generador de vCard", "desc": "Crear tarjetas de visita digitales con código QR." }
+  },
+  "common": {
+    "back": "← Todas las herramientas",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "download": "Descargar",
+    "generate": "Generar",
+    "convert": "Convertir",
+    "reset": "Restablecer",
+    "format": "Formatear",
+    "preview": "Vista previa"
+  },
+  "footer": { "tagline": "Herramientas gratuitas para todos", "builtBy": "Creado por", "privacy": "Política de Privacidad" }
+}

@@ -1,0 +1,55 @@
+{
+  "nav": { "allTools": "Alle Tools", "contact": "Kontakt" },
+  "home": {
+    "title": "Kostenlose Online-Tools",
+    "subtitle": "{count} kostenlose Tools für Designer, Entwickler und alle. Keine Anmeldung erforderlich.",
+    "suggestTool": "Weitere Tools kommen bald · Tool vorschlagen unter"
+  },
+  "categories": {
+    "design": "Design & Bild",
+    "pdf": "PDF & Dokumente",
+    "developer": "Entwickler-Tools",
+    "text": "Text-Tools",
+    "converters": "Konverter & Generatoren"
+  },
+  "tools": {
+    "favicon": { "title": "Favicon-Generator", "desc": "Favicon-Icons aus Text, Emoji oder Bild erstellen." },
+    "og-image": { "title": "OG-Bild-Generator", "desc": "Open-Graph-Bilder (1200×630) für Social Media gestalten." },
+    "css-gradient": { "title": "CSS-Gradient-Generator", "desc": "CSS-Verläufe visuell erstellen und Code kopieren." },
+    "color-palette": { "title": "Farbpaletten-Extraktor", "desc": "Bild hochladen und dominante Farbpalette extrahieren." },
+    "box-shadow": { "title": "Box-Shadow-Generator", "desc": "CSS Box-Shadow-Effekte visuell erstellen." },
+    "image-compressor": { "title": "Bild-Kompressor", "desc": "Bildgröße ohne Qualitätsverlust reduzieren. PNG, JPG, WebP." },
+    "image-to-pdf": { "title": "Bilder zu PDF", "desc": "Mehrere Bilder in eine PDF-Datei konvertieren." },
+    "pdf-to-word": { "title": "PDF zu Word", "desc": "PDF-Dateien in bearbeitbare Word-Dokumente (.docx) konvertieren." },
+    "pdf-to-excel": { "title": "PDF zu Excel", "desc": "Tabellen und Daten aus PDF in Excel (.xlsx) extrahieren." },
+    "invoice": { "title": "Rechnungsgenerator", "desc": "Professionelle Rechnungen erstellen und als PDF herunterladen." },
+    "json-formatter": { "title": "JSON-Formatierer", "desc": "JSON sofort formatieren, validieren und minimieren." },
+    "base64": { "title": "Base64-Kodierer/Dekodierer", "desc": "Text in Base64 kodieren oder Base64 dekodieren." },
+    "jwt-decoder": { "title": "JWT-Decoder", "desc": "JWT-Token-Header, Payload und Ablauf dekodieren." },
+    "regex-tester": { "title": "Regex-Tester", "desc": "Reguläre Ausdrücke mit Live-Hervorhebung testen." },
+    "cron-builder": { "title": "Cron-Builder", "desc": "Cron-Ausdrücke visuell erstellen mit Erklärung." },
+    "number-base": { "title": "Zahlenbasis-Konverter", "desc": "Zwischen Binär, Dezimal, Hexadezimal und Oktal konvertieren." },
+    "timestamp": { "title": "Zeitstempel-Konverter", "desc": "Unix-Zeitstempel in Datum und zurück konvertieren." },
+    "word-counter": { "title": "Wörter zählen", "desc": "Wörter, Zeichen, Sätze und Lesezeit zählen." },
+    "text-case": { "title": "Textfall-Konverter", "desc": "Zwischen camelCase, snake_case, GROSSBUCHSTABEN und mehr." },
+    "lorem-ipsum": { "title": "Lorem-Ipsum-Generator", "desc": "Platzhaltertext für Designs und Mockups generieren." },
+    "markdown-preview": { "title": "Markdown-Vorschau", "desc": "Markdown schreiben und Live-HTML-Vorschau sehen." },
+    "qr-code": { "title": "QR-Code-Generator", "desc": "QR-Codes für URLs und Text generieren. PNG herunterladen." },
+    "unit-converter": { "title": "Einheitenkonverter", "desc": "Länge, Gewicht, Temperatur, Geschwindigkeit und mehr." },
+    "password-generator": { "title": "Passwort-Generator", "desc": "Starke, sichere Passwörter generieren." },
+    "email-signature": { "title": "E-Mail-Signatur", "desc": "HTML-E-Mail-Signaturen für Gmail und Outlook erstellen." },
+    "vcard": { "title": "vCard-Generator", "desc": "Digitale Visitenkarten mit QR-Code erstellen." }
+  },
+  "common": {
+    "back": "← Alle Tools",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "download": "Herunterladen",
+    "generate": "Generieren",
+    "convert": "Konvertieren",
+    "reset": "Zurücksetzen",
+    "format": "Formatieren",
+    "preview": "Vorschau"
+  },
+  "footer": { "tagline": "Kostenlose Tools für alle", "builtBy": "Erstellt von", "privacy": "Datenschutz" }
+}

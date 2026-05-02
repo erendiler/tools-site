@@ -1,0 +1,55 @@
+{
+  "nav": { "allTools": "所有工具", "contact": "联系我们" },
+  "home": {
+    "title": "免费在线工具",
+    "subtitle": "为设计师、开发者和所有人提供 {count} 个免费工具。无需注册。",
+    "suggestTool": "更多工具即将推出 · 请发送建议至"
+  },
+  "categories": {
+    "design": "设计与图像",
+    "pdf": "PDF 与文档",
+    "developer": "开发者工具",
+    "text": "文本工具",
+    "converters": "转换器与生成器"
+  },
+  "tools": {
+    "favicon": { "title": "Favicon 生成器", "desc": "从文字、表情或图片创建网站图标。" },
+    "og-image": { "title": "OG 图片生成器", "desc": "为社交媒体分享设计 Open Graph 图片 (1200×630)。" },
+    "css-gradient": { "title": "CSS 渐变生成器", "desc": "可视化创建 CSS 渐变，复制即用代码。" },
+    "color-palette": { "title": "调色板提取器", "desc": "上传任意图片，提取主色调色板。" },
+    "box-shadow": { "title": "阴影生成器", "desc": "可视化创建 CSS box-shadow 效果。" },
+    "image-compressor": { "title": "图片压缩器", "desc": "无损压缩图片大小。支持 PNG、JPG、WebP。" },
+    "image-to-pdf": { "title": "图片转 PDF", "desc": "将多张图片合并为一个 PDF 文件。" },
+    "pdf-to-word": { "title": "PDF 转 Word", "desc": "将 PDF 文件转换为可编辑的 Word 文档。" },
+    "pdf-to-excel": { "title": "PDF 转 Excel", "desc": "从 PDF 中提取表格数据到 Excel。" },
+    "invoice": { "title": "发票生成器", "desc": "创建专业发票并下载为 PDF。" },
+    "json-formatter": { "title": "JSON 格式化工具", "desc": "即时格式化、验证和压缩 JSON。" },
+    "base64": { "title": "Base64 编解码器", "desc": "将文本编码为 Base64 或解码 Base64。" },
+    "jwt-decoder": { "title": "JWT 解码器", "desc": "解码和检查 JWT 令牌的头部、负载和过期时间。" },
+    "regex-tester": { "title": "正则表达式测试器", "desc": "实时高亮显示的正则表达式测试工具。" },
+    "cron-builder": { "title": "Cron 表达式生成器", "desc": "可视化构建 Cron 表达式并查看说明。" },
+    "number-base": { "title": "进制转换器", "desc": "二进制、十进制、十六进制和八进制互转。" },
+    "timestamp": { "title": "时间戳转换器", "desc": "Unix 时间戳与日期互相转换。" },
+    "word-counter": { "title": "字数统计", "desc": "统计字数、字符数、句子数和阅读时间。" },
+    "text-case": { "title": "文本大小写转换", "desc": "在 camelCase、snake_case、大写等之间转换。" },
+    "lorem-ipsum": { "title": "Lorem Ipsum 生成器", "desc": "为设计和原型生成占位文本。" },
+    "markdown-preview": { "title": "Markdown 预览", "desc": "编写 Markdown，实时查看 HTML 预览。" },
+    "qr-code": { "title": "二维码生成器", "desc": "为网址和文本生成二维码，下载 PNG。" },
+    "unit-converter": { "title": "单位转换器", "desc": "转换长度、重量、温度、速度等。" },
+    "password-generator": { "title": "密码生成器", "desc": "生成强大安全的密码，支持批量生成。" },
+    "email-signature": { "title": "邮件签名", "desc": "为 Gmail 和 Outlook 创建 HTML 邮件签名。" },
+    "vcard": { "title": "vCard 生成器", "desc": "创建带二维码的数字名片，下载 .vcf 文件。" }
+  },
+  "common": {
+    "back": "← 所有工具",
+    "copy": "复制",
+    "copied": "已复制！",
+    "download": "下载",
+    "generate": "生成",
+    "convert": "转换",
+    "reset": "重置",
+    "format": "格式化",
+    "preview": "预览"
+  },
+  "footer": { "tagline": "为所有人提供免费工具", "builtBy": "由", "privacy": "隐私政策" }
+}

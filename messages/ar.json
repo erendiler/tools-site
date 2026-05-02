@@ -1,0 +1,55 @@
+{
+  "nav": { "allTools": "جميع الأدوات", "contact": "اتصل بنا" },
+  "home": {
+    "title": "أدوات مجانية عبر الإنترنت",
+    "subtitle": "{count} أداة مجانية للمصممين والمطورين والجميع. لا حاجة للتسجيل.",
+    "suggestTool": "المزيد من الأدوات قريبًا · اقترح أداة على"
+  },
+  "categories": {
+    "design": "التصميم والصور",
+    "pdf": "PDF والمستندات",
+    "developer": "أدوات المطورين",
+    "text": "أدوات النصوص",
+    "converters": "المحولات والمولدات"
+  },
+  "tools": {
+    "favicon": { "title": "مولد Favicon", "desc": "إنشاء أيقونات favicon من النص أو الرموز التعبيرية أو الصور." },
+    "og-image": { "title": "مولد صور OG", "desc": "تصميم صور Open Graph (1200×630) لمشاركات التواصل الاجتماعي." },
+    "css-gradient": { "title": "مولد تدرج CSS", "desc": "إنشاء تدرجات CSS بصريًا ونسخ الكود الجاهز." },
+    "color-palette": { "title": "مستخرج لوحة الألوان", "desc": "ارفع أي صورة واستخرج لوحة الألوان المهيمنة." },
+    "box-shadow": { "title": "مولد ظل الصندوق", "desc": "إنشاء تأثيرات box-shadow بصريًا." },
+    "image-compressor": { "title": "ضاغط الصور", "desc": "تقليل حجم الصورة دون فقدان الجودة. PNG، JPG، WebP." },
+    "image-to-pdf": { "title": "صور إلى PDF", "desc": "تحويل صور متعددة إلى ملف PDF واحد." },
+    "pdf-to-word": { "title": "PDF إلى Word", "desc": "تحويل ملفات PDF إلى مستندات Word قابلة للتعديل." },
+    "pdf-to-excel": { "title": "PDF إلى Excel", "desc": "استخراج الجداول والبيانات من PDF إلى Excel." },
+    "invoice": { "title": "مولد الفواتير", "desc": "إنشاء فواتير احترافية وتنزيلها كـ PDF." },
+    "json-formatter": { "title": "منسق JSON", "desc": "تنسيق والتحقق من JSON وضغطه فورًا." },
+    "base64": { "title": "مشفر/فك تشفير Base64", "desc": "تشفير النص إلى Base64 أو فك تشفيره." },
+    "jwt-decoder": { "title": "فك تشفير JWT", "desc": "فك تشفير وفحص رأس وحمولة وانتهاء صلاحية JWT." },
+    "regex-tester": { "title": "محرر Regex", "desc": "اختبار التعبيرات العادية مع تمييز التطابق المباشر." },
+    "cron-builder": { "title": "منشئ Cron", "desc": "بناء تعبيرات cron بصريًا مع شرح بسيط." },
+    "number-base": { "title": "محول قواعد الأرقام", "desc": "التحويل بين الثنائي والعشري والسداسي عشر والثماني." },
+    "timestamp": { "title": "محول الطابع الزمني", "desc": "تحويل الطوابع الزمنية Unix إلى تواريخ والعكس." },
+    "word-counter": { "title": "عداد الكلمات", "desc": "عد الكلمات والأحرف والجمل ووقت القراءة." },
+    "text-case": { "title": "محول حالة النص", "desc": "التحويل بين camelCase وsnake_case والأحرف الكبيرة وغيرها." },
+    "lorem-ipsum": { "title": "مولد Lorem Ipsum", "desc": "إنشاء نص بديل للتصاميم والنماذج." },
+    "markdown-preview": { "title": "معاينة Markdown", "desc": "اكتب Markdown وشاهد معاينة HTML المباشرة." },
+    "qr-code": { "title": "مولد رمز QR", "desc": "إنشاء رموز QR للروابط والنصوص. تنزيل PNG." },
+    "unit-converter": { "title": "محول الوحدات", "desc": "تحويل الطول والوزن ودرجة الحرارة والسرعة وغيرها." },
+    "password-generator": { "title": "مولد كلمات المرور", "desc": "إنشاء كلمات مرور قوية وآمنة." },
+    "email-signature": { "title": "توقيع البريد الإلكتروني", "desc": "إنشاء توقيعات HTML للبريد الإلكتروني." },
+    "vcard": { "title": "مولد vCard", "desc": "إنشاء بطاقات عمل رقمية مع رمز QR." }
+  },
+  "common": {
+    "back": "→ جميع الأدوات",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "download": "تنزيل",
+    "generate": "إنشاء",
+    "convert": "تحويل",
+    "reset": "إعادة تعيين",
+    "format": "تنسيق",
+    "preview": "معاينة"
+  },
+  "footer": { "tagline": "أدوات مجانية للجميع", "builtBy": "بناه", "privacy": "سياسة الخصوصية" }
+}

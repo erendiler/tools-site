@@ -1,0 +1,55 @@
+{
+  "nav": { "allTools": "All Tools", "contact": "Contact" },
+  "home": {
+    "title": "Free Online Tools",
+    "subtitle": "{count} free tools for designers, developers and everyone. No signup required.",
+    "suggestTool": "More tools coming soon · Suggest a tool at"
+  },
+  "categories": {
+    "design": "Design & Image",
+    "pdf": "PDF & Documents",
+    "developer": "Developer Tools",
+    "text": "Text Tools",
+    "converters": "Converters & Generators"
+  },
+  "tools": {
+    "favicon": { "title": "Favicon Generator", "desc": "Create favicon icons from text, emoji or image upload." },
+    "og-image": { "title": "OG Image Generator", "desc": "Design Open Graph images (1200×630) for social sharing." },
+    "css-gradient": { "title": "CSS Gradient Generator", "desc": "Build beautiful CSS gradients visually. Copy ready-to-use code." },
+    "color-palette": { "title": "Color Palette Extractor", "desc": "Upload any image and extract its dominant color palette." },
+    "box-shadow": { "title": "Box Shadow Generator", "desc": "Create CSS box-shadow effects visually." },
+    "image-compressor": { "title": "Image Compressor", "desc": "Reduce image size without losing quality. PNG, JPG, WebP." },
+    "image-to-pdf": { "title": "Images to PDF", "desc": "Convert multiple images into a single PDF. Drag to reorder." },
+    "pdf-to-word": { "title": "PDF to Word", "desc": "Convert PDF files to editable Word (.docx) documents." },
+    "pdf-to-excel": { "title": "PDF to Excel", "desc": "Extract tables and data from PDF into Excel (.xlsx)." },
+    "invoice": { "title": "Invoice Generator", "desc": "Create professional invoices and download as PDF." },
+    "json-formatter": { "title": "JSON Formatter", "desc": "Format, validate and minify JSON instantly." },
+    "base64": { "title": "Base64 Encoder/Decoder", "desc": "Encode text to Base64 or decode Base64 to text." },
+    "jwt-decoder": { "title": "JWT Decoder", "desc": "Decode and inspect JWT token header, payload and expiry." },
+    "regex-tester": { "title": "Regex Tester", "desc": "Test regular expressions with live match highlighting." },
+    "cron-builder": { "title": "Cron Builder", "desc": "Build cron expressions visually with plain English explanation." },
+    "number-base": { "title": "Number Base Converter", "desc": "Convert between Binary, Decimal, Hex and Octal." },
+    "timestamp": { "title": "Timestamp Converter", "desc": "Convert Unix timestamps to dates and back instantly." },
+    "word-counter": { "title": "Word Counter", "desc": "Count words, characters, sentences and reading time." },
+    "text-case": { "title": "Text Case Converter", "desc": "Convert between camelCase, snake_case, UPPER, Title and more." },
+    "lorem-ipsum": { "title": "Lorem Ipsum Generator", "desc": "Generate placeholder text for designs and mockups." },
+    "markdown-preview": { "title": "Markdown Preview", "desc": "Write Markdown, see live HTML preview side by side." },
+    "qr-code": { "title": "QR Code Generator", "desc": "Generate QR codes for URLs, text, WiFi. Download PNG." },
+    "unit-converter": { "title": "Unit Converter", "desc": "Convert length, weight, temperature, speed and more." },
+    "password-generator": { "title": "Password Generator", "desc": "Generate strong secure passwords. Multiple at once." },
+    "email-signature": { "title": "Email Signature", "desc": "Create HTML email signatures for Gmail and Outlook." },
+    "vcard": { "title": "vCard Generator", "desc": "Create digital business cards with QR code. Download .vcf." }
+  },
+  "common": {
+    "back": "← All Tools",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download",
+    "generate": "Generate",
+    "convert": "Convert",
+    "reset": "Reset",
+    "format": "Format",
+    "preview": "Preview"
+  },
+  "footer": { "tagline": "Free tools for everyone", "builtBy": "Built by", "privacy": "Privacy Policy" }
+}

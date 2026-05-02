@@ -1,0 +1,55 @@
+{
+  "nav": { "allTools": "Tüm Araçlar", "contact": "İletişim" },
+  "home": {
+    "title": "Ücretsiz Online Araçlar",
+    "subtitle": "Tasarımcılar, geliştiriciler ve herkes için {count} ücretsiz araç. Kayıt gerekmez.",
+    "suggestTool": "Daha fazla araç yakında · Araç önerin:"
+  },
+  "categories": {
+    "design": "Tasarım & Görsel",
+    "pdf": "PDF & Belgeler",
+    "developer": "Geliştirici Araçları",
+    "text": "Metin Araçları",
+    "converters": "Dönüştürücüler & Üreticiler"
+  },
+  "tools": {
+    "favicon": { "title": "Favicon Üretici", "desc": "Metin, emoji veya resim yükleyerek favicon ikonu oluşturun." },
+    "og-image": { "title": "OG Görsel Üretici", "desc": "Sosyal medya paylaşımları için Open Graph görseli (1200×630) tasarlayın." },
+    "css-gradient": { "title": "CSS Gradient Üretici", "desc": "Görsel olarak gradient oluşturun, CSS kodunu kopyalayın." },
+    "color-palette": { "title": "Renk Paleti Çıkarıcı", "desc": "Herhangi bir görselden baskın renk paletini çıkarın." },
+    "box-shadow": { "title": "Box Shadow Üretici", "desc": "CSS box-shadow efektlerini görsel olarak oluşturun." },
+    "image-compressor": { "title": "Görsel Sıkıştırıcı", "desc": "Kalite kaybı olmadan görsel boyutunu küçültün. PNG, JPG, WebP." },
+    "image-to-pdf": { "title": "Görselden PDF", "desc": "Birden fazla görseli tek PDF'e dönüştürün. Sürükleyerek sıralayın." },
+    "pdf-to-word": { "title": "PDF'den Word'e", "desc": "PDF dosyalarını düzenlenebilir Word (.docx) belgelerine dönüştürün." },
+    "pdf-to-excel": { "title": "PDF'den Excel'e", "desc": "PDF'den tablo ve verileri Excel (.xlsx) dosyasına aktarın." },
+    "invoice": { "title": "Fatura Üretici", "desc": "Profesyonel fatura oluşturun ve PDF olarak indirin." },
+    "json-formatter": { "title": "JSON Biçimlendirici", "desc": "JSON'u anında biçimlendirin, doğrulayın ve küçültün." },
+    "base64": { "title": "Base64 Kodlayıcı/Çözücü", "desc": "Metni Base64'e kodlayın veya Base64'ü metne çözün." },
+    "jwt-decoder": { "title": "JWT Çözücü", "desc": "JWT token başlığını, içeriğini ve son kullanma tarihini inceleyin." },
+    "regex-tester": { "title": "Regex Test Aracı", "desc": "Düzenli ifadeleri canlı eşleşme vurgulamasıyla test edin." },
+    "cron-builder": { "title": "Cron Oluşturucu", "desc": "Cron ifadelerini görsel olarak oluşturun ve açıklamasını görün." },
+    "number-base": { "title": "Sayı Tabanı Dönüştürücü", "desc": "İkili, Ondalık, Onaltılık ve Sekizli arasında dönüştürün." },
+    "timestamp": { "title": "Zaman Damgası Dönüştürücü", "desc": "Unix zaman damgalarını tarihe ve geri dönüştürün." },
+    "word-counter": { "title": "Kelime Sayacı", "desc": "Kelime, karakter, cümle ve okuma süresini sayın." },
+    "text-case": { "title": "Metin Büyüklük Dönüştürücü", "desc": "camelCase, snake_case, BÜYÜK HARF, Başlık ve daha fazlası." },
+    "lorem-ipsum": { "title": "Lorem Ipsum Üretici", "desc": "Tasarım ve maketler için yer tutucu metin oluşturun." },
+    "markdown-preview": { "title": "Markdown Önizleme", "desc": "Markdown yazın, canlı HTML önizlemesini yan yana görün." },
+    "qr-code": { "title": "QR Kod Üretici", "desc": "URL, metin ve WiFi için QR kod oluşturun. PNG indirin." },
+    "unit-converter": { "title": "Birim Dönüştürücü", "desc": "Uzunluk, ağırlık, sıcaklık, hız ve daha fazlasını dönüştürün." },
+    "password-generator": { "title": "Şifre Üretici", "desc": "Güçlü ve güvenli şifreler üretin. Aynı anda birden fazla." },
+    "email-signature": { "title": "E-posta İmzası", "desc": "Gmail ve Outlook için HTML e-posta imzası oluşturun." },
+    "vcard": { "title": "vCard Üretici", "desc": "QR kodlu dijital kartvizit oluşturun. .vcf dosyası indirin." }
+  },
+  "common": {
+    "back": "← Tüm Araçlar",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!",
+    "download": "İndir",
+    "generate": "Oluştur",
+    "convert": "Dönüştür",
+    "reset": "Sıfırla",
+    "format": "Biçimlendir",
+    "preview": "Önizle"
+  },
+  "footer": { "tagline": "Herkes için ücretsiz araçlar", "builtBy": "Yapımcı", "privacy": "Gizlilik Politikası" }
+}
