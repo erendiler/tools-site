@@ -4,7 +4,7 @@ import QRCode from "qrcode";
 
 export default function VCardTool() {
   const [name, setName] = useState("Eren Diler");
-  const [org, setOrg] = useState("ErenTools");
+  const [org, setOrg] = useState("ToolPit");
   const [title, setTitle] = useState("Full Stack Developer");
   const [email, setEmail] = useState("eren@example.com");
   const [phone, setPhone] = useState("+1 555 000 0000");

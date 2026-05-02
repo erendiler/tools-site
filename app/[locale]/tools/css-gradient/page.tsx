@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import GradientTool from "./GradientTool";
 
 export const metadata: Metadata = {
-  title: "CSS Gradient Generator — ErenTools",
+  title: "CSS Gradient Generator — ToolPit",
   description: "Build beautiful CSS gradients visually and copy the code instantly.",
 };
 

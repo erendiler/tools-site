@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import WordCounterTool from "./WordCounterTool";
-export const metadata: Metadata = { title: "Word Counter — ErenTools", description: "Count words, characters, sentences and paragraphs online." };
+export const metadata: Metadata = { title: "Word Counter — ToolPit", description: "Count words, characters, sentences and paragraphs online." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

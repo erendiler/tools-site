@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import VCardTool from "./VCardTool";
-export const metadata: Metadata = { title: "vCard Generator — ErenTools", description: "Create digital business cards with QR code. Download .vcf file." };
+export const metadata: Metadata = { title: "vCard Generator — ToolPit", description: "Create digital business cards with QR code. Download .vcf file." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import LoremIpsumTool from "./LoremIpsumTool";
-export const metadata: Metadata = { title: "Lorem Ipsum Generator — ErenTools", description: "Generate Lorem Ipsum placeholder text online. Free." };
+export const metadata: Metadata = { title: "Lorem Ipsum Generator — ToolPit", description: "Generate Lorem Ipsum placeholder text online. Free." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

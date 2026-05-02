@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import OGImageTool from "./OGImageTool";
 
 export const metadata: Metadata = {
-  title: "OG Image Generator — ErenTools",
+  title: "OG Image Generator — ToolPit",
   description: "Design Open Graph images (1200×630) for social media sharing. Free.",
 };
 

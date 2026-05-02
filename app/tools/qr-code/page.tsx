@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import QRCodeTool from "./QRCodeTool";
 
 export const metadata: Metadata = {
-  title: "QR Code Generator — ErenTools",
+  title: "QR Code Generator — ToolPit",
   description: "Free QR code generator. Create QR codes for URLs, text, WiFi. Download as PNG.",
 };
 

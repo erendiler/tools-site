@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import TextCaseTool from "./TextCaseTool";
-export const metadata: Metadata = { title: "Text Case Converter — ErenTools", description: "Convert text between uppercase, lowercase, camelCase, snake_case and more." };
+export const metadata: Metadata = { title: "Text Case Converter — ToolPit", description: "Convert text between uppercase, lowercase, camelCase, snake_case and more." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

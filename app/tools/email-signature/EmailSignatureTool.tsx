@@ -7,7 +7,7 @@ export default function EmailSignatureTool() {
   const [email, setEmail] = useState("eren@example.com");
   const [phone, setPhone] = useState("+1 (555) 000-0000");
   const [website, setWebsite] = useState("https://erendiler.com");
-  const [company, setCompany] = useState("ErenTools");
+  const [company, setCompany] = useState("ToolPit");
   const [color, setColor] = useState("#6366f1");
   const [copied, setCopied] = useState(false);
 

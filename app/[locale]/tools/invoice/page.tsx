@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import InvoiceTool from "./InvoiceTool";
-export const metadata: Metadata = { title: "Invoice Generator — ErenTools", description: "Create professional invoices and download as PDF. Free." };
+export const metadata: Metadata = { title: "Invoice Generator — ToolPit", description: "Create professional invoices and download as PDF. Free." };
 export default function Page() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">

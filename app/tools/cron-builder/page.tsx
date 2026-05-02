@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import CronBuilderTool from "./CronBuilderTool";
-export const metadata: Metadata = { title: "Cron Expression Builder — ErenTools", description: "Build and understand cron expressions visually." };
+export const metadata: Metadata = { title: "Cron Expression Builder — ToolPit", description: "Build and understand cron expressions visually." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

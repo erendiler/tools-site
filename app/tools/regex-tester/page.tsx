@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import RegexTesterTool from "./RegexTesterTool";
-export const metadata: Metadata = { title: "Regex Tester — ErenTools", description: "Test regular expressions online with live match highlighting." };
+export const metadata: Metadata = { title: "Regex Tester — ToolPit", description: "Test regular expressions online with live match highlighting." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

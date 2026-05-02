@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ImageCompressorTool from "./ImageCompressorTool";
 
 export const metadata: Metadata = {
-  title: "Image Compressor — ErenTools",
+  title: "Image Compressor — ToolPit",
   description: "Compress images online. Reduce file size without losing quality. Free.",
 };
 

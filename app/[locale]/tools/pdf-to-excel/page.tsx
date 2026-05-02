@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PdfToExcelTool from "./PdfToExcelTool";
 
 export const metadata: Metadata = {
-  title: "PDF to Excel — ErenTools",
+  title: "PDF to Excel — ToolPit",
   description: "Extract tables and data from PDF files into Excel (.xlsx) online. Free.",
 };
 

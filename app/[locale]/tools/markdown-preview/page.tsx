@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import MarkdownPreviewTool from "./MarkdownPreviewTool";
-export const metadata: Metadata = { title: "Markdown Preview — ErenTools", description: "Write and preview Markdown with live HTML rendering." };
+export const metadata: Metadata = { title: "Markdown Preview — ToolPit", description: "Write and preview Markdown with live HTML rendering." };
 export default function Page() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">

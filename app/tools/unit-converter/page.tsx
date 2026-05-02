@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import UnitConverterTool from "./UnitConverterTool";
-export const metadata: Metadata = { title: "Unit Converter — ErenTools", description: "Convert length, weight, temperature and more. Free online unit converter." };
+export const metadata: Metadata = { title: "Unit Converter — ToolPit", description: "Convert length, weight, temperature and more. Free online unit converter." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

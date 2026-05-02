@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ImageToPdfTool from "./ImageToPdfTool";
 
 export const metadata: Metadata = {
-  title: "Images to PDF — ErenTools",
+  title: "Images to PDF — ToolPit",
   description: "Convert images to PDF online. Free, no signup, works in browser.",
 };
 

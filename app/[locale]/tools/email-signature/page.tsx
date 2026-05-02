@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import EmailSignatureTool from "./EmailSignatureTool";
-export const metadata: Metadata = { title: "Email Signature Generator — ErenTools", description: "Create professional HTML email signatures. Copy and paste into Gmail, Outlook." };
+export const metadata: Metadata = { title: "Email Signature Generator — ToolPit", description: "Create professional HTML email signatures. Copy and paste into Gmail, Outlook." };
 export default function Page() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">

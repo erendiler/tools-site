@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PdfToWordTool from "./PdfToWordTool";
 
 export const metadata: Metadata = {
-  title: "PDF to Word — ErenTools",
+  title: "PDF to Word — ToolPit",
   description: "Convert PDF files to editable Word documents (.docx) online. Free, no signup.",
 };
 

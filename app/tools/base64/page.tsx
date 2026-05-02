@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Base64Tool from "./Base64Tool";
-export const metadata: Metadata = { title: "Base64 Encoder/Decoder — ErenTools", description: "Encode and decode Base64 strings online. Free." };
+export const metadata: Metadata = { title: "Base64 Encoder/Decoder — ToolPit", description: "Encode and decode Base64 strings online. Free." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

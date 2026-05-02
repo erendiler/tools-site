@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import JsonFormatterTool from "./JsonFormatterTool";
-export const metadata: Metadata = { title: "JSON Formatter — ErenTools", description: "Format, validate and minify JSON online. Free." };
+export const metadata: Metadata = { title: "JSON Formatter — ToolPit", description: "Format, validate and minify JSON online. Free." };
 export default function Page() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">

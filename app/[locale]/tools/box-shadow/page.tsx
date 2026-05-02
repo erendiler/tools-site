@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BoxShadowTool from "./BoxShadowTool";
 
 export const metadata: Metadata = {
-  title: "Box Shadow Generator — ErenTools",
+  title: "Box Shadow Generator — ToolPit",
   description: "Create CSS box-shadow effects visually. Multiple shadows supported.",
 };
 

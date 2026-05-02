@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FaviconTool from "./FaviconTool";
 
 export const metadata: Metadata = {
-  title: "Favicon Generator — ErenTools",
+  title: "Favicon Generator — ToolPit",
   description: "Create favicon.ico and PNG icons from text or emoji for your website. Free.",
 };
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import JwtDecoderTool from "./JwtDecoderTool";
-export const metadata: Metadata = { title: "JWT Decoder — ErenTools", description: "Decode and inspect JWT tokens online. Free." };
+export const metadata: Metadata = { title: "JWT Decoder — ToolPit", description: "Decode and inspect JWT tokens online. Free." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

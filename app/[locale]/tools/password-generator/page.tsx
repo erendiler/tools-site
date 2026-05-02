@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PasswordGeneratorTool from "./PasswordGeneratorTool";
 
 export const metadata: Metadata = {
-  title: "Password Generator — ErenTools",
+  title: "Password Generator — ToolPit",
   description: "Generate strong, secure passwords. Customizable length and character sets.",
 };
 

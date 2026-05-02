@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import TimestampTool from "./TimestampTool";
-export const metadata: Metadata = { title: "Timestamp Converter — ErenTools", description: "Convert Unix timestamps to human-readable dates and vice versa." };
+export const metadata: Metadata = { title: "Timestamp Converter — ToolPit", description: "Convert Unix timestamps to human-readable dates and vice versa." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

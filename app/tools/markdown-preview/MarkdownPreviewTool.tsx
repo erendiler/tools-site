@@ -2,7 +2,7 @@
 import { useState, useMemo } from "react";
 import { marked } from "marked";
 
-const DEFAULT = `# Hello ErenTools 👋
+const DEFAULT = `# Hello ToolPit 👋
 
 ## Features
 - **Bold** and *italic* text
@@ -19,7 +19,7 @@ console.log(greet("World"));
 
 | Name | Value |
 |------|-------|
-| Tool | ErenTools |
+| Tool | ToolPit |
 | Type | Free |
 `;
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ColorPaletteTool from "./ColorPaletteTool";
 
 export const metadata: Metadata = {
-  title: "Color Palette Extractor — ErenTools",
+  title: "Color Palette Extractor — ToolPit",
   description: "Upload any image and instantly extract its dominant color palette with hex codes.",
 };
 

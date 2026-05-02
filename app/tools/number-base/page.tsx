@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import NumberBaseTool from "./NumberBaseTool";
-export const metadata: Metadata = { title: "Number Base Converter — ErenTools", description: "Convert between binary, decimal, hexadecimal and octal." };
+export const metadata: Metadata = { title: "Number Base Converter — ToolPit", description: "Convert between binary, decimal, hexadecimal and octal." };
 export default function Page() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">

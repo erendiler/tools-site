@@ -15,7 +15,7 @@ const conversions = [
 ];
 
 export default function TextCaseTool() {
-  const [input, setInput] = useState("Hello World from ErenTools");
+  const [input, setInput] = useState("Hello World from ToolPit");
   const [copied, setCopied] = useState("");
 
   async function copy(text: string, label: string) {
