@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import "../globals.css";
-
-const ADSENSE_ID = "ca-pub-9682866993240569";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -44,14 +41,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={isRTL ? "rtl" : "ltr"} className="h-full">
-      <head>
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      </head>
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900">
         <NextIntlClientProvider messages={messages}>
           <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
