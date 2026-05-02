@@ -12,6 +12,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: { default: `ToolPit — ${t("title")}`, template: `%s — ToolPit` },
     description: t("subtitle", { count: 26 }),
+    other: { "google-adsense-account": "ca-pub-9682866993240569" },
+    alternates: {
+      canonical: `https://toolpit.tech/${locale}`,
+      languages: {
+        en: "https://toolpit.tech/en",
+        tr: "https://toolpit.tech/tr",
+        ar: "https://toolpit.tech/ar",
+        es: "https://toolpit.tech/es",
+        de: "https://toolpit.tech/de",
+        zh: "https://toolpit.tech/zh",
+      },
+    },
   };
 }
 
