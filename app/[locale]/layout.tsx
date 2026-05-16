@@ -9,9 +9,18 @@ import "../globals.css";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "home" });
+  const title = `ToolPit — ${t("title")}`;
+  const description = t("subtitle", { count: 26 });
   return {
-    title: { default: `ToolPit — ${t("title")}`, template: `%s — ToolPit` },
-    description: t("subtitle", { count: 26 }),
+    metadataBase: new URL("https://toolpit.tech"),
+    title: { default: title, template: `%s — ToolPit` },
+    description,
+    applicationName: "ToolPit",
+    keywords: [
+      "free online tools", "developer tools", "designer tools",
+      "json formatter", "favicon generator", "qr code", "pdf tools",
+      "regex tester", "password generator", "image compressor",
+    ],
     verification: { google: "9ue66Ef0rPE5ieB_aBSdvM-qxMFWxaTPYKzbstTEgP4" },
     other: { "google-adsense-account": "ca-pub-9682866993240569" },
     alternates: {
@@ -25,6 +34,20 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         zh: "https://toolpit.tech/zh",
       },
     },
+    openGraph: {
+      type: "website",
+      url: `https://toolpit.tech/${locale}`,
+      siteName: "ToolPit",
+      title,
+      description,
+      locale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
 

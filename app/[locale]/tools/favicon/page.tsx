@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import FaviconTool from "./FaviconTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "Favicon Generator — ToolPit",
@@ -15,6 +16,7 @@ export default function FaviconPage() {
         <p className="text-slate-500">Create favicon icons from text or emoji. Download as PNG.</p>
       </div>
       <FaviconTool />
+      <ToolContent slug="favicon" />
     </div>
   );
 }

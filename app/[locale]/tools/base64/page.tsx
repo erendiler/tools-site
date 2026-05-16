@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Base64Tool from "./Base64Tool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Base64 Encoder/Decoder — ToolPit", description: "Encode and decode Base64 strings online. Free." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Encode text to Base64 or decode Base64 to text instantly.</p>
       </div>
       <Base64Tool />
+      <ToolContent slug="base64" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import JsonFormatterTool from "./JsonFormatterTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "JSON Formatter — ToolPit", description: "Format, validate and minify JSON online. Free." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Format, validate and minify JSON instantly.</p>
       </div>
       <JsonFormatterTool />
+      <ToolContent slug="json-formatter" />
     </div>
   );
 }

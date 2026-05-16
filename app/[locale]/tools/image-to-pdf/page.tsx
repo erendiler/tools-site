@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ImageToPdfTool from "./ImageToPdfTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "Images to PDF — ToolPit",
@@ -15,6 +16,7 @@ export default function ImageToPdfPage() {
         <p className="text-slate-500">Convert one or multiple images into a single PDF. Drag to reorder.</p>
       </div>
       <ImageToPdfTool />
+      <ToolContent slug="image-to-pdf" />
     </div>
   );
 }

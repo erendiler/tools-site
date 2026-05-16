@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ColorPaletteTool from "./ColorPaletteTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "Color Palette Extractor — ToolPit",
@@ -15,6 +16,7 @@ export default function ColorPalettePage() {
         <p className="text-slate-500">Upload an image to extract its dominant colors.</p>
       </div>
       <ColorPaletteTool />
+      <ToolContent slug="color-palette" />
     </div>
   );
 }

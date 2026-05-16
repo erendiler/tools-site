@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import InvoiceTool from "./InvoiceTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Invoice Generator — ToolPit", description: "Create professional invoices and download as PDF. Free." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Create professional invoices and download as PDF. No signup.</p>
       </div>
       <InvoiceTool />
+      <ToolContent slug="invoice" />
     </div>
   );
 }

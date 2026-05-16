@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import NumberBaseTool from "./NumberBaseTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Number Base Converter — ToolPit", description: "Convert between binary, decimal, hexadecimal and octal." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Convert between Binary, Decimal, Hexadecimal and Octal.</p>
       </div>
       <NumberBaseTool />
+      <ToolContent slug="number-base" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import WordCounterTool from "./WordCounterTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Word Counter — ToolPit", description: "Count words, characters, sentences and paragraphs online." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Count words, characters, sentences and reading time instantly.</p>
       </div>
       <WordCounterTool />
+      <ToolContent slug="word-counter" />
     </div>
   );
 }

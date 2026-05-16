@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import OGImageTool from "./OGImageTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "OG Image Generator — ToolPit",
@@ -15,6 +16,7 @@ export default function OGImagePage() {
         <p className="text-slate-500">Design Open Graph images (1200×630) for social media sharing.</p>
       </div>
       <OGImageTool />
+      <ToolContent slug="og-image" />
     </div>
   );
 }

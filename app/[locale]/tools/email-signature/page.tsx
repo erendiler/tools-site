@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import EmailSignatureTool from "./EmailSignatureTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Email Signature Generator — ToolPit", description: "Create professional HTML email signatures. Copy and paste into Gmail, Outlook." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Create a professional email signature. Copy HTML and paste into Gmail or Outlook.</p>
       </div>
       <EmailSignatureTool />
+      <ToolContent slug="email-signature" />
     </div>
   );
 }

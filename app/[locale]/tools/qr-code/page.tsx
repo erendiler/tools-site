@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import QRCodeTool from "./QRCodeTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "QR Code Generator — ToolPit",
@@ -15,6 +16,7 @@ export default function QRCodePage() {
         <p className="text-slate-500">Generate QR codes for any URL or text. Free, no signup required.</p>
       </div>
       <QRCodeTool />
+      <ToolContent slug="qr-code" />
     </div>
   );
 }

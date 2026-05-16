@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import TimestampTool from "./TimestampTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Timestamp Converter — ToolPit", description: "Convert Unix timestamps to human-readable dates and vice versa." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Convert Unix timestamps to dates and back instantly.</p>
       </div>
       <TimestampTool />
+      <ToolContent slug="timestamp" />
     </div>
   );
 }

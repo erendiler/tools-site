@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CronBuilderTool from "./CronBuilderTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Cron Expression Builder — ToolPit", description: "Build and understand cron expressions visually." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Build cron expressions visually and understand what they mean.</p>
       </div>
       <CronBuilderTool />
+      <ToolContent slug="cron-builder" />
     </div>
   );
 }

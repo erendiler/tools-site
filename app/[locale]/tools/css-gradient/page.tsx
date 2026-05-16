@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GradientTool from "./GradientTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "CSS Gradient Generator — ToolPit",
@@ -15,6 +16,7 @@ export default function GradientPage() {
         <p className="text-slate-500">Build gradients visually and copy ready-to-use CSS code.</p>
       </div>
       <GradientTool />
+      <ToolContent slug="css-gradient" />
     </div>
   );
 }

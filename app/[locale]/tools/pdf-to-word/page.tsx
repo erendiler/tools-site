@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PdfToWordTool from "./PdfToWordTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "PDF to Word — ToolPit",
@@ -15,6 +16,7 @@ export default function PdfToWordPage() {
         <p className="text-slate-500">Convert PDF to editable .docx file. Works entirely in your browser.</p>
       </div>
       <PdfToWordTool />
+      <ToolContent slug="pdf-to-word" />
     </div>
   );
 }

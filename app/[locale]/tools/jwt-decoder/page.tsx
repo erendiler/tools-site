@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import JwtDecoderTool from "./JwtDecoderTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "JWT Decoder — ToolPit", description: "Decode and inspect JWT tokens online. Free." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Decode and inspect JWT token header, payload and signature.</p>
       </div>
       <JwtDecoderTool />
+      <ToolContent slug="jwt-decoder" />
     </div>
   );
 }

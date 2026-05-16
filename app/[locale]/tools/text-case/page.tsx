@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import TextCaseTool from "./TextCaseTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Text Case Converter — ToolPit", description: "Convert text between uppercase, lowercase, camelCase, snake_case and more." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Convert text between any case format instantly.</p>
       </div>
       <TextCaseTool />
+      <ToolContent slug="text-case" />
     </div>
   );
 }

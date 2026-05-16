@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ImageCompressorTool from "./ImageCompressorTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "Image Compressor — ToolPit",
@@ -15,6 +16,7 @@ export default function ImageCompressorPage() {
         <p className="text-slate-500">Reduce image file size without losing quality. Works in your browser.</p>
       </div>
       <ImageCompressorTool />
+      <ToolContent slug="image-compressor" />
     </div>
   );
 }

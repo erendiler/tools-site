@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import RegexTesterTool from "./RegexTesterTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Regex Tester — ToolPit", description: "Test regular expressions online with live match highlighting." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Test regular expressions with live match highlighting and group capture.</p>
       </div>
       <RegexTesterTool />
+      <ToolContent slug="regex-tester" />
     </div>
   );
 }

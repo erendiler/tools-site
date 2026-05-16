@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import UnitConverterTool from "./UnitConverterTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Unit Converter — ToolPit", description: "Convert length, weight, temperature and more. Free online unit converter." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Convert length, weight, temperature, area and more.</p>
       </div>
       <UnitConverterTool />
+      <ToolContent slug="unit-converter" />
     </div>
   );
 }

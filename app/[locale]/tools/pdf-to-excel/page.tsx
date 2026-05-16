@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PdfToExcelTool from "./PdfToExcelTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "PDF to Excel — ToolPit",
@@ -15,6 +16,7 @@ export default function PdfToExcelPage() {
         <p className="text-slate-500">Extract tables and data from PDF into .xlsx file. Works in your browser.</p>
       </div>
       <PdfToExcelTool />
+      <ToolContent slug="pdf-to-excel" />
     </div>
   );
 }

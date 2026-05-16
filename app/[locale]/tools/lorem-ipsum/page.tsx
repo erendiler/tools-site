@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LoremIpsumTool from "./LoremIpsumTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Lorem Ipsum Generator — ToolPit", description: "Generate Lorem Ipsum placeholder text online. Free." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Generate placeholder text for your designs and mockups.</p>
       </div>
       <LoremIpsumTool />
+      <ToolContent slug="lorem-ipsum" />
     </div>
   );
 }

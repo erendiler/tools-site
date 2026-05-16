@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import BoxShadowTool from "./BoxShadowTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "Box Shadow Generator — ToolPit",
@@ -15,6 +16,7 @@ export default function BoxShadowPage() {
         <p className="text-slate-500">Create CSS box shadows visually and copy the code.</p>
       </div>
       <BoxShadowTool />
+      <ToolContent slug="box-shadow" />
     </div>
   );
 }

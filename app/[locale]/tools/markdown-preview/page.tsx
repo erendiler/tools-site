@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import MarkdownPreviewTool from "./MarkdownPreviewTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "Markdown Preview — ToolPit", description: "Write and preview Markdown with live HTML rendering." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Write Markdown on the left, see live HTML preview on the right.</p>
       </div>
       <MarkdownPreviewTool />
+      <ToolContent slug="markdown-preview" />
     </div>
   );
 }

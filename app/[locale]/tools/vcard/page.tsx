@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import VCardTool from "./VCardTool";
+import ToolContent from "@/components/ToolContent";
 export const metadata: Metadata = { title: "vCard Generator — ToolPit", description: "Create digital business cards with QR code. Download .vcf file." };
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
         <p className="text-slate-500">Create a digital business card with QR code. Download .vcf file.</p>
       </div>
       <VCardTool />
+      <ToolContent slug="vcard" />
     </div>
   );
 }

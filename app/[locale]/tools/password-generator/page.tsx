@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PasswordGeneratorTool from "./PasswordGeneratorTool";
+import ToolContent from "@/components/ToolContent";
 
 export const metadata: Metadata = {
   title: "Password Generator — ToolPit",
@@ -15,6 +16,7 @@ export default function PasswordGeneratorPage() {
         <p className="text-slate-500">Generate strong, secure passwords instantly. Nothing is sent to any server.</p>
       </div>
       <PasswordGeneratorTool />
+      <ToolContent slug="password-generator" />
     </div>
   );
 }
